@@ -15,58 +15,58 @@ import React from "react";
 
 const testimonials = [
   {
-    text: "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    text: "Our production efficiency increased by 35% after implementing this shop floor control system. The real-time tracking is a game-changer.",
     imageSrc: avatar1.src,
-    name: "Jamie Rivera",
-    username: "@jamietechguru00",
+    name: "Michael Rodriguez",
+    username: "@manufacturingpro",
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: "The detailed analytics have helped us identify and eliminate production bottlenecks we didn't even know existed.",
     imageSrc: avatar2.src,
-    name: "Josh Smith",
-    username: "@jjsmith",
+    name: "Elena Thompson",
+    username: "@operationsmanager",
   },
   {
-    text: "This app has completely transformed how I manage my projects and deadlines.",
+    text: "Seamless integration with our existing machinery made this system incredibly easy to adopt across our entire production floor.",
     imageSrc: avatar3.src,
-    name: "Morgan Lee",
-    username: "@morganleewhiz",
+    name: "David Chen",
+    username: "@techmanufacturing",
   },
   {
-    text: "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    text: "We've dramatically reduced downtime and improved our overall equipment effectiveness (OEE) with this innovative solution.",
     imageSrc: avatar4.src,
-    name: "Casey Jordan",
-    username: "@caseyj",
+    name: "Sarah Kumar",
+    username: "@manufacturinglean",
   },
   {
-    text: "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    text: "The predictive maintenance features have saved us thousands in unexpected equipment repairs and downtime.",
     imageSrc: avatar5.src,
-    name: "Taylor Kim",
-    username: "@taylorkimm",
+    name: "Robert Garcia",
+    username: "@factorysolutions",
   },
   {
-    text: "The customizability and integration capabilities of this app are top-notch.",
+    text: "Real-time performance tracking has transformed how we manage and motivate our production teams.",
     imageSrc: avatar6.src,
-    name: "Riley Smith",
-    username: "@rileysmith1",
+    name: "Jennifer Wong",
+    username: "@manufacturingtech",
   },
   {
-    text: "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    text: "Our quality control has improved significantly with the system's detailed tracking and reporting capabilities.",
     imageSrc: avatar7.src,
-    name: "Jordan Patels",
-    username: "@jpatelsdesign",
+    name: "Alex Patel",
+    username: "@qualitymanager",
   },
   {
-    text: "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    text: "Integrated IoT capabilities have given us unprecedented visibility into our manufacturing processes.",
     imageSrc: avatar8.src,
-    name: "Sam Dawson",
-    username: "@dawsontechtips",
+    name: "Mark Johnson",
+    username: "@iottechnology",
   },
   {
-    text: "Its user-friendly interface and robust features support our diverse needs.",
+    text: "The customizable dashboards allow us to track exactly the metrics that matter most to our specific production needs.",
     imageSrc: avatar9.src,
-    name: "Casey Harper",
-    username: "@casey09",
+    name: "Lisa Martinez",
+    username: "@manufacturinginsights",
   },
 ];
 
@@ -130,8 +130,8 @@ export const Testimonials = () => {
           </div>
           <h2 className="section-title mt-5">What our users say</h2>
           <p className="section-description mt-5">
-            From intuitive design to powerful features, our app has become an
-            essential tool for users around the world.
+            Discover how our Shop Floor Control System is driving efficiency and
+            innovation across manufacturing environments.
           </p>
         </div>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">

@@ -21,8 +21,8 @@ export const CallToAction = () => {
         <div className="section-heading relative">
           <h2 className="section-title">Sign up for free today</h2>
           <p className="section-description mt-5">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress and motivate your efforts.
+            Unlock real-time insights, optimize production, and drive
+            operational excellence with our Shop Floor Control System.
           </p>
           <motion.img
             src={starImage.src}

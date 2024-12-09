@@ -23,14 +23,15 @@ export const ProductShowcase = () => {
       <div className="container">
         <div className="section-heading">
           <div className=" flex justify-center">
-            <div className="tag">Boost your productivity</div>
+            <div className="tag">Precision Manufacturing</div>
           </div>
           <h2 className="section-title mt-5">
-            A more effective way to track progress
+            Transforming Shop Floor Management
           </h2>
           <p className="section-description mt-5">
-            Effortlessly turn your ideas into a fully functional, responsive,
-            SaaS website in just minutes with this template.
+            Seamlessly track production metrics, optimize workflow, and gain
+            unprecedented visibility into your manufacturing processes with our
+            advanced Shop Floor Control System.
           </p>
         </div>
         <div className="relative">
