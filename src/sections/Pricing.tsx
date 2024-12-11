@@ -56,6 +56,7 @@ import { motion } from "framer-motion";
 
 const pricingTiers = [
   {
+    id: 1,
     title: "Starter",
     monthlyPrice: "30,000",
     buttonText: "Get started for free",
@@ -68,6 +69,7 @@ const pricingTiers = [
     ],
   },
   {
+    id: 2,
     title: "Professional",
     monthlyPrice: "60,000",
     buttonText: "Scale Your Operations",
@@ -81,6 +83,7 @@ const pricingTiers = [
     ],
   },
   {
+    id: 3,
     title: "Enterprise",
     monthlyPrice: "1,00,000",
     buttonText: "Custom Solution",
@@ -116,8 +119,10 @@ export const Pricing = () => {
               popular,
               inverse,
               features,
+              id,
             }) => (
               <div
+                key={id}
                 className={twMerge(
                   "card",
                   inverse === true && "border-black bg-black text-white"

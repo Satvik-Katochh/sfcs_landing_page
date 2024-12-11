@@ -15,54 +15,63 @@ import React from "react";
 
 const testimonials = [
   {
+    id: 1,
     text: "Our production efficiency increased by 35% after implementing this shop floor control system. The real-time tracking is a game-changer.",
     imageSrc: avatar1.src,
     name: "Michael Rodriguez",
     username: "@manufacturingpro",
   },
   {
+    id: 2,
     text: "The detailed analytics have helped us identify and eliminate production bottlenecks we didn't even know existed.",
     imageSrc: avatar2.src,
     name: "Elena Thompson",
     username: "@operationsmanager",
   },
   {
+    id: 3,
     text: "Seamless integration with our existing machinery made this system incredibly easy to adopt across our entire production floor.",
     imageSrc: avatar3.src,
     name: "David Chen",
     username: "@techmanufacturing",
   },
   {
+    id: 4,
     text: "We've dramatically reduced downtime and improved our overall equipment effectiveness (OEE) with this innovative solution.",
     imageSrc: avatar4.src,
     name: "Sarah Kumar",
     username: "@manufacturinglean",
   },
   {
+    id: 5,
     text: "The predictive maintenance features have saved us thousands in unexpected equipment repairs and downtime.",
     imageSrc: avatar5.src,
     name: "Robert Garcia",
     username: "@factorysolutions",
   },
   {
+    id: 6,
     text: "Real-time performance tracking has transformed how we manage and motivate our production teams.",
     imageSrc: avatar6.src,
     name: "Jennifer Wong",
     username: "@manufacturingtech",
   },
   {
+    id: 7,
     text: "Our quality control has improved significantly with the system's detailed tracking and reporting capabilities.",
     imageSrc: avatar7.src,
     name: "Alex Patel",
     username: "@qualitymanager",
   },
   {
+    id: 8,
     text: "Integrated IoT capabilities have given us unprecedented visibility into our manufacturing processes.",
     imageSrc: avatar8.src,
     name: "Mark Johnson",
     username: "@iottechnology",
   },
   {
+    id: 9,
     text: "The customizable dashboards allow us to track exactly the metrics that matter most to our specific production needs.",
     imageSrc: avatar9.src,
     name: "Lisa Martinez",
@@ -94,8 +103,8 @@ const TestimonialsColumn = (props: {
     >
       {[...new Array(2)].fill(0).map((_, index) => (
         <React.Fragment key={index}>
-          {props.testimonials.map(({ text, imageSrc, name, username }) => (
-            <div className="card">
+          {props.testimonials.map(({ id, text, imageSrc, name, username }) => (
+            <div key={id} className="card">
               <div>{text}</div>
               <div className="flex items-center gap-2 mt-5">
                 <Image
